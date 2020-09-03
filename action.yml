@@ -1,0 +1,10 @@
+name: 'Track build errors action'
+description: 'Track overall build errors by tracking errors on a per-job basis'
+inputs:
+  job-name:
+    description: 'Name of Github Action job'
+    required: true
+    default: ''
+runs:
+  using: 'node12'
+  main: 'index.js'
