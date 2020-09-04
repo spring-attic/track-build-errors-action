@@ -11,7 +11,7 @@ In order to use this action, make sure to do two things:
 
 2. Invoke this action and export the errors file as the last step of every job in your build. Both of these steps should use `if: ${{ failure() }}` logic to ensure we create error output if the job actually failed. This is also included in the example below.
 
-If you'd like an example that demonstrates the usage of this action and the [notify-slack-errors-action](https://github.com/spring-projects/notify-slack-errors-action), see this [sample project]().
+If you'd like an example that demonstrates the usage of this action and the [notify-slack-errors-action](https://github.com/spring-projects/notify-slack-errors-action), see this [sample project](https://github.com/elliedori/sample-action-usage-project).
 
 ## Inputs
 
