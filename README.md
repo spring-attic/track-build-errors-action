@@ -20,6 +20,7 @@ If you'd like an example that demonstrates the usage of this action and the [not
 
 ## Example usage
 
+```
 jobs:
   initiate_error_tracking:
     name: Initiate job-level error tracking
@@ -55,4 +56,5 @@ jobs:
           path: job-${{ github.job }}.txt
   ...
   notify_result: ...
+  ```
 
