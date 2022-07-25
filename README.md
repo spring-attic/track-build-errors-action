@@ -1,3 +1,6 @@
+# This repository is no longer actively maintained by VMware, Inc.
+
+
 # track-build-errors-action
 
 This action handles the tracking of job-level failures for a build, with the intent to later send a summary message to Slack. **Please note that this action is meant to be used in tandem with [notify-slack-errors-action](https://github.com/spring-projects/notify-slack-errors-action).**
